@@ -64,7 +64,7 @@ describe('<AddCard />', () => {
 
     cy.get('.notice-success')
     .should('be.visible')
-    .and('have.text', 'Cartão cadastrado com suceço!')
+    .and('have.text', 'Cartão cadastrado com sucesso!')
 
     //estrategia para escrever no campo - quando nao tem acesso ao codigo
 
